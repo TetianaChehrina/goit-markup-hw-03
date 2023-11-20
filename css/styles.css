@@ -1,6 +1,38 @@
 
 *{text-decoration: none;}
 *{list-style-type:none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navigation{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
 .logo{
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -22,6 +54,8 @@ color:#2E2F42;
     text-transform: uppercase;
 }
 .menu-list{
+    display: flex;
+    gap: 40px;
     font-family: 'Roboto', sans-serif;
         font-size: 16px;
             font-style: normal;
@@ -29,9 +63,16 @@ color:#2E2F42;
             line-height: 1.5;
             letter-spacing: 0.02em;
 }
+.contacts-list{
+    display: flex;
+    gap: 40px;
+}
 
 .link{
+    display: block;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .link:hover,
 .link:focus{color: #404bbf;
@@ -85,6 +126,19 @@ color:#2E2F42;
 .page-button:hover,
 .page-button:focus{
     background-color: #404BBF;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .benefits-title{
     color: #2e2f42;

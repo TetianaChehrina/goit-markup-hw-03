@@ -8,12 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="body-page">
     <header class="page-header">
-        <nav class="navigation">
+        <div class="container">
+         <nav class="navigation">
             <a class="logo" href="./index.html">Web<span class="logo-text">Studio</span></a>
             <ul class="menu-list">
                 <li class="menu-item"><a class="link" href="./index.html">Studio</a></li>
@@ -22,11 +25,12 @@
             </ul>
         </nav>
         <address class="contacts">
-            <ul>
+            <ul class="contacts-list">
                 <li class="link-contacts"><a class="contacts-detail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="link-contacts"><a class="contacts-detail" href="tel:+110001111111">+11 (000) 111-11-11</a></li>  
             </ul>
-        </address>
+        </address>   
+        </div>
     </header>
    <main>
     <!--Section title-->
@@ -36,7 +40,7 @@
 </section>
 <!--Section 1 description-->
     <section class="benefits-group">
-        <h2>Feature</h2>
+        <h2 class="visually-hidden">Feature</h2>
         <ul class="benefits-list">
             <li class="benefits-item">
                 <h3 class="benefits-title">Strategy</h3>
