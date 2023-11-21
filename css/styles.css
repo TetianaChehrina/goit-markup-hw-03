@@ -248,8 +248,8 @@ color:#2E2F42;
         gap: 8px;
 }
 .card-portfolio{
-    border-top: none;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-top: none;
     display: flex;
         padding: 32px 16px;
         flex-direction: column;
@@ -262,7 +262,8 @@ color:#2E2F42;
     background-color: #FFF;
 padding-top: 120px;
 padding-bottom: 120px;}
-   . portfolio-container{
+
+   .portfolio-container{
     padding: 32px 16px;
     border-top: none;
    }
@@ -304,6 +305,7 @@ padding-bottom: 120px;}
     margin-bottom: 0px;
 }
 .portfolio-container{
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 .down{
